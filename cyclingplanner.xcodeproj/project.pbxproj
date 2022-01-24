@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2BD651279EBC1A00115FA8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD650279EBC1A00115FA8 /* Tests_iOS.swift */; };
+		AA2BD653279EBC1A00115FA8 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD652279EBC1A00115FA8 /* Tests_iOSLaunchTests.swift */; };
+		AA2BD65D279EBC1A00115FA8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD65C279EBC1A00115FA8 /* Tests_macOS.swift */; };
+		AA2BD65F279EBC1A00115FA8 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD65E279EBC1A00115FA8 /* Tests_macOSLaunchTests.swift */; };
+		AA2BD660279EBC1A00115FA8 /* cyclingplannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD638279EBC1600115FA8 /* cyclingplannerApp.swift */; };
+		AA2BD661279EBC1A00115FA8 /* cyclingplannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD638279EBC1600115FA8 /* cyclingplannerApp.swift */; };
+		AA2BD662279EBC1A00115FA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD639279EBC1600115FA8 /* ContentView.swift */; };
+		AA2BD663279EBC1A00115FA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2BD639279EBC1600115FA8 /* ContentView.swift */; };
+		AA2BD664279EBC1A00115FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2BD63A279EBC1A00115FA8 /* Assets.xcassets */; };
+		AA2BD665279EBC1A00115FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2BD63A279EBC1A00115FA8 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA2BD64D279EBC1A00115FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2BD633279EBC1500115FA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2BD63E279EBC1A00115FA8;
+			remoteInfo = "cyclingplanner (iOS)";
+		};
+		AA2BD659279EBC1A00115FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2BD633279EBC1500115FA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2BD644279EBC1A00115FA8;
+			remoteInfo = "cyclingplanner (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA2BD638279EBC1600115FA8 /* cyclingplannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cyclingplannerApp.swift; sourceTree = "<group>"; };
+		AA2BD639279EBC1600115FA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA2BD63A279EBC1A00115FA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA2BD63F279EBC1A00115FA8 /* cyclingplanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cyclingplanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2BD645279EBC1A00115FA8 /* cyclingplanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cyclingplanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2BD647279EBC1A00115FA8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AA2BD64C279EBC1A00115FA8 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2BD650279EBC1A00115FA8 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AA2BD652279EBC1A00115FA8 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AA2BD658279EBC1A00115FA8 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2BD65C279EBC1A00115FA8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AA2BD65E279EBC1A00115FA8 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA2BD63C279EBC1A00115FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2BD642279EBC1A00115FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2BD649279EBC1A00115FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2BD655279EBC1A00115FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA2BD632279EBC1500115FA8 = {
+			isa = PBXGroup;
+			children = (
+				AA2BD637279EBC1600115FA8 /* Shared */,
+				AA2BD646279EBC1A00115FA8 /* macOS */,
+				AA2BD64F279EBC1A00115FA8 /* Tests iOS */,
+				AA2BD65B279EBC1A00115FA8 /* Tests macOS */,
+				AA2BD640279EBC1A00115FA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA2BD637279EBC1600115FA8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AA2BD638279EBC1600115FA8 /* cyclingplannerApp.swift */,
+				AA2BD639279EBC1600115FA8 /* ContentView.swift */,
+				AA2BD63A279EBC1A00115FA8 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AA2BD640279EBC1A00115FA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2BD63F279EBC1A00115FA8 /* cyclingplanner.app */,
+				AA2BD645279EBC1A00115FA8 /* cyclingplanner.app */,
+				AA2BD64C279EBC1A00115FA8 /* Tests iOS.xctest */,
+				AA2BD658279EBC1A00115FA8 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA2BD646279EBC1A00115FA8 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA2BD647279EBC1A00115FA8 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AA2BD64F279EBC1A00115FA8 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA2BD650279EBC1A00115FA8 /* Tests_iOS.swift */,
+				AA2BD652279EBC1A00115FA8 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AA2BD65B279EBC1A00115FA8 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA2BD65C279EBC1A00115FA8 /* Tests_macOS.swift */,
+				AA2BD65E279EBC1A00115FA8 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA2BD63E279EBC1A00115FA8 /* cyclingplanner (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2BD668279EBC1A00115FA8 /* Build configuration list for PBXNativeTarget "cyclingplanner (iOS)" */;
+			buildPhases = (
+				AA2BD63B279EBC1A00115FA8 /* Sources */,
+				AA2BD63C279EBC1A00115FA8 /* Frameworks */,
+				AA2BD63D279EBC1A00115FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cyclingplanner (iOS)";
+			productName = "cyclingplanner (iOS)";
+			productReference = AA2BD63F279EBC1A00115FA8 /* cyclingplanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA2BD644279EBC1A00115FA8 /* cyclingplanner (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2BD66B279EBC1A00115FA8 /* Build configuration list for PBXNativeTarget "cyclingplanner (macOS)" */;
+			buildPhases = (
+				AA2BD641279EBC1A00115FA8 /* Sources */,
+				AA2BD642279EBC1A00115FA8 /* Frameworks */,
+				AA2BD643279EBC1A00115FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cyclingplanner (macOS)";
+			productName = "cyclingplanner (macOS)";
+			productReference = AA2BD645279EBC1A00115FA8 /* cyclingplanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA2BD64B279EBC1A00115FA8 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2BD66E279EBC1A00115FA8 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AA2BD648279EBC1A00115FA8 /* Sources */,
+				AA2BD649279EBC1A00115FA8 /* Frameworks */,
+				AA2BD64A279EBC1A00115FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2BD64E279EBC1A00115FA8 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AA2BD64C279EBC1A00115FA8 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AA2BD657279EBC1A00115FA8 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2BD671279EBC1A00115FA8 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AA2BD654279EBC1A00115FA8 /* Sources */,
+				AA2BD655279EBC1A00115FA8 /* Frameworks */,
+				AA2BD656279EBC1A00115FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2BD65A279EBC1A00115FA8 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AA2BD658279EBC1A00115FA8 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA2BD633279EBC1500115FA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AA2BD63E279EBC1A00115FA8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AA2BD644279EBC1A00115FA8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AA2BD64B279EBC1A00115FA8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AA2BD63E279EBC1A00115FA8;
+					};
+					AA2BD657279EBC1A00115FA8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AA2BD644279EBC1A00115FA8;
+					};
+				};
+			};
+			buildConfigurationList = AA2BD636279EBC1500115FA8 /* Build configuration list for PBXProject "cyclingplanner" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA2BD632279EBC1500115FA8;
+			productRefGroup = AA2BD640279EBC1A00115FA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA2BD63E279EBC1A00115FA8 /* cyclingplanner (iOS) */,
+				AA2BD644279EBC1A00115FA8 /* cyclingplanner (macOS) */,
+				AA2BD64B279EBC1A00115FA8 /* Tests iOS */,
+				AA2BD657279EBC1A00115FA8 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA2BD63D279EBC1A00115FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2BD664279EBC1A00115FA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2BD643279EBC1A00115FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2BD665279EBC1A00115FA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2BD64A279EBC1A00115FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2BD656279EBC1A00115FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA2BD63B279EBC1A00115FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2BD662279EBC1A00115FA8 /* ContentView.swift in Sources */,
+				AA2BD660279EBC1A00115FA8 /* cyclingplannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2BD641279EBC1A00115FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2BD663279EBC1A00115FA8 /* ContentView.swift in Sources */,
+				AA2BD661279EBC1A00115FA8 /* cyclingplannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2BD648279EBC1A00115FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2BD653279EBC1A00115FA8 /* Tests_iOSLaunchTests.swift in Sources */,
+				AA2BD651279EBC1A00115FA8 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2BD654279EBC1A00115FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2BD65F279EBC1A00115FA8 /* Tests_macOSLaunchTests.swift in Sources */,
+				AA2BD65D279EBC1A00115FA8 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA2BD64E279EBC1A00115FA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2BD63E279EBC1A00115FA8 /* cyclingplanner (iOS) */;
+			targetProxy = AA2BD64D279EBC1A00115FA8 /* PBXContainerItemProxy */;
+		};
+		AA2BD65A279EBC1A00115FA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2BD644279EBC1A00115FA8 /* cyclingplanner (macOS) */;
+			targetProxy = AA2BD659279EBC1A00115FA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA2BD666279EBC1A00115FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA2BD667279EBC1A00115FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AA2BD669279EBC1A00115FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY5379V85F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nunnethan.cyclingplanner;
+				PRODUCT_NAME = cyclingplanner;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA2BD66A279EBC1A00115FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY5379V85F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nunnethan.cyclingplanner;
+				PRODUCT_NAME = cyclingplanner;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA2BD66C279EBC1A00115FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY5379V85F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nunnethan.cyclingplanner;
+				PRODUCT_NAME = cyclingplanner;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA2BD66D279EBC1A00115FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY5379V85F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nunnethan.cyclingplanner;
+				PRODUCT_NAME = cyclingplanner;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA2BD66F279EBC1A00115FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY5379V85F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.nunnethan.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cyclingplanner (iOS)";
+			};
+			name = Debug;
+		};
+		AA2BD670279EBC1A00115FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY5379V85F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.nunnethan.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cyclingplanner (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA2BD672279EBC1A00115FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY5379V85F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.nunnethan.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "cyclingplanner (macOS)";
+			};
+			name = Debug;
+		};
+		AA2BD673279EBC1A00115FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY5379V85F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.nunnethan.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "cyclingplanner (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA2BD636279EBC1500115FA8 /* Build configuration list for PBXProject "cyclingplanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2BD666279EBC1A00115FA8 /* Debug */,
+				AA2BD667279EBC1A00115FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2BD668279EBC1A00115FA8 /* Build configuration list for PBXNativeTarget "cyclingplanner (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2BD669279EBC1A00115FA8 /* Debug */,
+				AA2BD66A279EBC1A00115FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2BD66B279EBC1A00115FA8 /* Build configuration list for PBXNativeTarget "cyclingplanner (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2BD66C279EBC1A00115FA8 /* Debug */,
+				AA2BD66D279EBC1A00115FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2BD66E279EBC1A00115FA8 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2BD66F279EBC1A00115FA8 /* Debug */,
+				AA2BD670279EBC1A00115FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2BD671279EBC1A00115FA8 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2BD672279EBC1A00115FA8 /* Debug */,
+				AA2BD673279EBC1A00115FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA2BD633279EBC1500115FA8 /* Project object */;
+}
